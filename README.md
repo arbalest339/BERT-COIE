@@ -34,5 +34,7 @@ python add_features/additional_features.py -sp -rf data/saoke.json -train data/t
 run BERT_COIE.py to train and test 
 ### Step 5: Post-processing and get P, R, F1
 run utils/post_process.py
-
+```
+python post_processing.py -data_dir <path/to/the/testset> -output_dir <path/to/the_output_dir_of_the_model>
+```
 Updating in succession
